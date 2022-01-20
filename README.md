@@ -56,7 +56,7 @@ Features:
 * Auto-update files (requires Git installed)
 * Bcoins report after finalizing the map
 * New map estimation added
-* Telegram new commands (workall, restall)
+* Telegram new commands (workall, restall, refresh, stop)
 
 ## 🎁 <a id="donation"></a>Donation
 BCOIN/BNB: 0x318863E8f42F4471C1c3FEc59DF2Dd9447F39241 
