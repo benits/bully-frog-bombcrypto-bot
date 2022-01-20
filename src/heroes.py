@@ -39,7 +39,8 @@ class Heroes:
         global heroes_clicked
 
         self.importLibs()
-        self.log.console('Search for heroes to work', emoji='🏢', color='green')
+        self.log.console('Search for heroes to work',
+                         services=True, emoji='🏢', color='green')
 
         self.goToHeroes()
 

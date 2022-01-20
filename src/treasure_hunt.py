@@ -12,7 +12,6 @@ class TreasureHunt:
         from src.images import Images
         from src.log import Log
         from src.recognition import Recognition
-        from src.treasure_hunt import TreasureHunt
         self.actions = Actions()
         self.auth = Auth()
         self.desktop = Desktop()
@@ -20,7 +19,6 @@ class TreasureHunt:
         self.images = Images()
         self.recognition = Recognition()
         self.log = Log()
-        self.treasure_hunt = TreasureHunt()
 
     def goToMap(self):
         self.importLibs()
@@ -39,6 +37,7 @@ class TreasureHunt:
             self.auth.checkLogout()
 
     def generateMapImage(self):
+        self.importLibs()
         back_button_image = self.images.image('back_button')
         fullscreen_button_image = self.images.image('full_screen_button')
         self.actions.sleep(1, 1)
@@ -64,6 +63,7 @@ class TreasureHunt:
         self.actions.sleep(1, 1)
 
     def chestEstimate(self):
+        self.importLibs()
         image = cv2.imread(self.MAP_IMAGE)
         totalChest = self.totalChestsByMap(image)
 
@@ -110,6 +110,7 @@ Possible amount: {total:.3f} BCoin
             self.log.console(reportWithoutEmoji, services=True)
 
     def totalChestsByMap(self, baseImage):
+        self.importLibs()
         threshold = self.config['threshold']['chest']
         thresholdJail = self.config['threshold']['jail']
 

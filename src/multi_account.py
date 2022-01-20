@@ -60,7 +60,6 @@ class MultiAccount:
         self.log.console('Multi account disabled', emoji='🧾', color='cyan')
         self.botSingleOnlyMap()
 
-
     def botSingle(self):
 
         last = {
@@ -104,7 +103,6 @@ class MultiAccount:
                 for last in windows:
                     window = last["window"]
                     self.activeWindow(last, window)
-
 
         except PyGetWindowException:
             self.log.console(
@@ -183,7 +181,8 @@ class MultiAccount:
             humanClicker.click()
         window.maximize()
         window.activate()
-        self.log.console('Browser Active: ' + window.title, emoji='🪟', color='cyan')
+        self.log.console('Browser Active: ' + window.title,
+                         emoji='🪟', color='cyan')
         self.actions.sleep(2, 2)
         self.steps(last)
         if window_fullscreen is not True:
