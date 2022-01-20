@@ -40,6 +40,7 @@ This bot contains code from other developers, this bot was just refactored, to f
 Developers (Base code):
 * https://github.com/mpcabete/
 * https://github.com/vin350/ (Telegram integration)
+* https://github.com/newerton/ (Initial base code)
 
 This bot is free and open source.
 
