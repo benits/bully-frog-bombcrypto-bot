@@ -58,8 +58,8 @@ Features:
 * Telegram new commands (workall, restall)
 
 ## 🎁 <a id="donation"></a>Donation
-BCOIN: 0x4847C29561B6682154E25c334E12d156e19F613a  
-PIX: 08912d17-47a6-411e-b7ec-ef793203f836  
+BCOIN/BNB: 0x318863E8f42F4471C1c3FEc59DF2Dd9447F39241 
+PIX: 46fad16d-a076-4bd0-8b84-00c508332d75 
 
 ## 🤖 <a id="robot-preview"></a>Robot - Preview
 ![Screenshot - Preview](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/bot_working.png)
