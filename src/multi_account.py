@@ -8,6 +8,10 @@ if os.name == 'nt':
     import pygetwindow as botMultiAccount
     from pygetwindow import PyGetWindowException
 
+if os.name == 'posix':
+    import pygetwindowmp as botMultiAccount
+    from pygetwindowmp import PyGetWindowException
+
 humanClicker = HumanClicker()
 
 
@@ -51,9 +55,13 @@ class MultiAccount:
             self.log.console('Multi account enabled', emoji='🧾', color='cyan')
             self.botMultiAccountWindows()
 
-        if os.name == 'posix':
+        if multiAccount != True and os.name == 'posix':
             self.log.console('Multi account DISABLE', emoji='🧾', color='cyan')
             self.botSingle()
+
+        if multiAccount == True and os.name == 'posix':
+            self.log.console('Multi account enabled', emoji='🧾', color='cyan')
+            self.botMultiAccountWindows()
 
     def startOnlyMapAction(self):
         self.importLibs()
@@ -190,3 +198,4 @@ class MultiAccount:
             window.resizeTo(windowWidth, windowHeight)
             window.moveTo(windowLeft, windowTop)
             self.actions.sleep(1, 1)
+

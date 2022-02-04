@@ -1,5 +1,6 @@
-  version:
-    app: "1.5.12"
-    config_file: "1.5.12"
-    emergency: "false"
-
+# [en] PLEASE DON'T CHANGE
+# [pt_br] POR FAVOR NÃO ALTERE
+version:
+  app: "1.5.12"
+  config_file: "1.5.12"
+  emergency: "false"
