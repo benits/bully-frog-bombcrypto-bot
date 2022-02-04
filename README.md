@@ -1,6 +1,6 @@
 <h1 align="center">
 
-![Bomb Crypto Banner](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/banner.jpg)
+![Bomb Crypto Banner](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/banner.jpg)
 
   <a>
     💣 Bomb Crypto Bot 💣 
@@ -14,7 +14,7 @@ I am not responsible for any penalties incurred by those who use the bot, use it
 ## 📄 Documentation
 | - | Language |
 |:---: | :---: |
-| ![Portuguese](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/flags/brazil.png) | [Portuguese](https://github.com/newerton/bombcrypto-bot/blob/main/docs/README_pt-br.md) |
+| ![Portuguese](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/flags/brazil.png) | [Portuguese](https://github.com/benits/bully-frog-bombcrypto-bot/blob/main/docs/README_pt-br.md) |
   
 ## 📌 Glossary
 
@@ -63,7 +63,7 @@ BCOIN/BNB: 0x318863E8f42F4471C1c3FEc59DF2Dd9447F39241
 PIX: 46fad16d-a076-4bd0-8b84-00c508332d75 
 
 ## 🤖 <a id="robot-preview"></a>Robot - Preview
-![Screenshot - Preview](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/bot_working.png)
+![Screenshot - Preview](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/bot_working.png)
 
 ## 🪟 <a id="installation"></a>Installation
 
@@ -139,8 +139,8 @@ Python 3.8.10
 ## 🎨 <a id="themes"></a>Themes
 |      theme     	| toolbar image preview 	|
 |:-------------:	|:-----:	|
-| default 	| ![Lunar New Year](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/themes/default.jpg)	|
-| lunar_newyear 	| ![Lunar New Year](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/themes/lunar_newyear.jpg)	|
+| default 	| ![Lunar New Year](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/themes/default.jpg)	|
+| lunar_newyear 	| ![Lunar New Year](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/themes/lunar_newyear.jpg)	|
 ## ⚒️ <a id="configs"></a>Configs
 | code | type | description |
 |:-------------: |:-----: |:-----: |

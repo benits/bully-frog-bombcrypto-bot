@@ -43,6 +43,7 @@ def success():
     print('Run without stopping (Windows): .\start.bat')
     print('Run without stopping (Linx): ./start.sh', Fore.RESET)
 
+
 def updateFiles(path):
     try:
         print('🔃 Updating files...')
@@ -71,9 +72,10 @@ def run():
         version = subprocess.check_output(["git", "version"]).strip().decode()
         print(Fore.GREEN + 'Git installed:', version, Fore.RESET)
         try:
-            print('Cloning repository https://github.com/newerton/bombcrypto-bot.git')
+            print(
+                'Cloning repository https://github.com/benits/bully-frog-bombcrypto-bot.git')
             git.Repo.clone_from(
-                'https://github.com/newerton/bombcrypto-bot.git', './clone-repo', branch='main')
+                'https://github.com/benits/bully-frog-bombcrypto-bot.git', './clone-repo', branch='main')
             deleteRecursive(pathSource + '.git/')
         except git.exc.GitCommandError:
             print(Fore.GREEN + 'Repository cloned', Fore.RESET)
@@ -92,7 +94,6 @@ def run():
 
         print('------------------------------------------------------------------')
         exit()
-
 
 
 if __name__ == '__main__':

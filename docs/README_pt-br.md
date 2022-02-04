@@ -1,6 +1,6 @@
 <h1 align="center">
 
-![Bomb Crypto Banner](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/banner.jpg)
+![Bomb Crypto Banner](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/banner.jpg)
 
   <a>
     💣 Bomb Crypto Bot 💣 
@@ -57,7 +57,7 @@ BCOIN: 0x4847C29561B6682154E25c334E12d156e19F613a
 PIX: 08912d17-47a6-411e-b7ec-ef793203f836  
 
 ## 🤖 <a id="robot-preview"></a>Robô - Previsualização
-![Screenshot - Preview](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/bot_working.png)
+![Screenshot - Preview](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/bot_working.png)
 
 ## 🪟 <a id="installation"></a>Instalação
 
@@ -124,8 +124,8 @@ Python 3.8.10
 ## 🎨 <a id="themes"></a>Temas
 |      theme     	| toolbar image preview 	|
 |:-------------:	|:-----:	|
-| default 	| ![Lunar New Year](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/themes/default.jpg)	|
-| lunar_newyear 	| ![Lunar New Year](https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/images/readme/themes/lunar_newyear.jpg)	|
+| default 	| ![Lunar New Year](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/themes/default.jpg)	|
+| lunar_newyear 	| ![Lunar New Year](https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/images/readme/themes/lunar_newyear.jpg)	|
 
 ## ⚒️ <a id="configs"></a>Configurações
 |      código     	| tipo 	| descrição 	|

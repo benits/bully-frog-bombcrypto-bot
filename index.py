@@ -16,10 +16,10 @@ banner = """
 **
 ** Please consider buying me a coffee :)
 ** BCOIN: 0x318863E8f42F4471C1c3FEc59DF2Dd9447F39241
-** PIX: 08912d17-47a6-411e-b7ec-ef793203f836
+** PIX: 46fad16d-a076-4bd0-8b84-00c508332d75
 *******************************************************************************
 ** Press CTRL + C to kill the bot.
-** Some configs can be found in the https://github.com/newerton/bombcrypto-bot
+** Some configs can be found in the https://github.com/benits/bully-frog-bombcrypto-bot
 *******************************************************************************"""
 
 print(Fore.GREEN + banner + Style.RESET_ALL)
@@ -30,7 +30,7 @@ multi_account = MultiAccount()
 telegram = Telegram()
 
 
-def main():  
+def main():
     application.start()
     telegram.start()
     multi_account.start()

@@ -85,7 +85,7 @@ Versions
     def gitHubVersion(self):
         self.importLibs()
         data = requests.get(
-            'https://raw.githubusercontent.com/newerton/bombcrypto-bot/main/config/version.yaml')
+            'https://raw.githubusercontent.com/benits/bully-frog-bombcrypto-bot/main/config/version.yaml')
         try:
             streamVersionGithub = yaml.safe_load(data.text)
             versionData = streamVersionGithub['version']
@@ -164,7 +164,7 @@ Versions
                             print(Fore.GREEN + key + Fore.RESET)
 
                     print(
-                        Fore.WHITE + '\nSee: https://github.com/newerton/bombcrypto-bot/blob/main/config/EXAMPLE-config.yaml' + Fore.RESET)
+                        Fore.WHITE + '\nSee: https://github.com/benits/bully-frog-bombcrypto-bot/blob/main/config/EXAMPLE-config.yaml' + Fore.RESET)
                     print(
                         Fore.GREEN + '\n*********************************************************************************' + Fore.RESET)
 
