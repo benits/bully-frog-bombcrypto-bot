@@ -101,6 +101,17 @@ Ready! Now just start the bot with the command, inside the project folder
 python index.py
 ```
 
+### How to use MultiAccount
+To use multiaccount you need install a PyGetWindow Customized to work with windows, linux and macOS
+
+To install this module on your system, you need to go to ``./src/external/PyGetWindow/dist`` and run:
+
+```python
+  python3 -m pip install PyGetWindowMP-0.0.9-py3-none-any.whl
+```
+
+You may want to add '--force-reinstall' option to be sure you are installing the right dependencies version.
+
 | commands | OS | description |
 | :---: | :---: | :---: |
 | ./cmd/update_files.sh | Linux	| Updates all project files except config.yaml and telegram.yaml and Python requirements.txt |
@@ -240,5 +251,5 @@ A threshold of 0.99 or 1 is too high, it won't find the image it's looking for, 
 
 ## 👍 Did you like it? :)
 
-### BCOIN: 0x4847C29561B6682154E25c334E12d156e19F613a  
-### PIX: 08912d17-47a6-411e-b7ec-ef793203f836
+### BCOIN: 0x318863E8f42F4471C1c3FEc59DF2Dd9447F39241 
+### PIX: 46fad16d-a076-4bd0-8b84-00c508332d75

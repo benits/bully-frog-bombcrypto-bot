@@ -1,21 +1,67 @@
 app:
-  theme: 'lunar_newyear'
+  theme: "lunar_newyear"
+
+  # [en_US] verify version of bot
+  # Default value: False
+  #
+  # [pt_BR] verificar versão do bot
+  # Valor padrão: False
   verify_version: true
+
+  # [en_US] show emojis in console
+  # Default value: False
+  #
+  # [pt_BR] mostra emojis no console
+  # Valor padrão: False
   emoji: false
   terminal_colorful: false
   run_time_app: 1
+
+  # [en_US] monitor that bot will use for play
+  # Default value: 1
+  #
+  # [pt_BR] monitor que o bot usara para jogar
+  # Valor padrão: 1
   monitor_to_use: 1
   captcha: false
-  speed: 'normal'
+  speed: "normal"
+
   multi_account:
+    # [en_US] Multi Account DISABLE = false | Multi Account = true
+    # [pt_BR] Multi Conta = false | Multi Conta HABILITADO = true
     enable: false
-    window_title: 'bombcrypto'
+
+    # [en_US] Window name running bombcrypto
+    # [pt_BR] Nome da janela rodando o bombcrypto
+    window_title: "bombcrypto"
+
+    # Valor padrão : False
+    # Opções disponíveis: False ou True
     window_fullscreen: false
 
+# [en_US] Time intervals configuration
+#
+# [pt_BR] Configurações de intervalos de tempo
+#
 time_intervals:
+  # [en_US] Time interval for check if there are available heroes to work
+  # Default value (in minutes): [10,10] [min value, max value]
+  #
+  # [pt_BR] Intervalo de tempo para verificar se há heróis disponíveis para trabalhar
+  # Valor padrão (em minutos): [10,10] [valor minimo, valor maximo]
   send_heroes_for_work: [30, 35]
+
+  # [en_US] Time interval to update heroes position in the map
+  # Default value (in minutes): [3,5] [min value, max value]
+  #
+  # [pt_BR] Intervalo de tempo para atualizar a posição dos heróis no mapa
+  # Valor padrão (em minutos): [3,5] [valor minimo, valor maximo]
   refresh_heroes_positions: [3, 4]
 
+# [en_US] Value of bcoin inside chests
+#
+# [pt_BR] Valor de Bcoin dentro de cada bau
+#
 chests:
   values:
     chest_01: 0.01425
@@ -23,34 +69,144 @@ chests:
     chest_03: 0.16250
     chest_04: 0.32500
 
+# [en_US] How confident the bot needs to be to click the buttons (values from 0 to 1. 0 is the minimum value, 1 is the maximum value)
+#
+# [pt_BR] O quão confiante o bot precisa estar para clicar nos botões (valores entre 0 e 1. 0 é o valor mínimo, 1 é o valor máximo)
+#
 threshold:
+  # [en_US]
+  # Default value: 0.7
+  #
+  # [pt_BR]
+  # Valor padrão: 0.7
   default: 0.7
+
+  # [en_US]
+  # Default value: 0.7
+  #
+  # [pt_BR]
+  # Valor padrão: 0.7
   error_message: 0.7
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   back_button: 0.9
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   work_button: 0.9
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   heroes_green_bar: 0.9
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   heroes_full_bar: 0.9
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   heroes_send_all: 0.9
+
+  # [en_US]
+  # Default value: 0.9
+  #
+  # [pt_BR]
+  # Valor padrão: 0.9
   heroes_rest_all: 0.9
+
+  # [en_US]
+  # Default value: 0.65
+  #
+  # [pt_BR]
+  # Valor padrão: 0.65
   chest: 0.65
+
+  # [en_US]
+  # Default value: 0.8
+  #
+  # [pt_BR]
+  # Valor padrão: 0.8
   jail: 0.8
 
+# [en_US] heroes config
+#
+# [pt_BR] configuração dos heróis
+#
 heroes:
-  mode: 'green'
+  # [en_US]
+  # Default value: green
+  # Available options:
+  # all   = select all heroes (regardless of the stamina bar)
+  # green = select the heroes with green stamina bar (half or full)
+  # full  = select only the heroes with full stamina bar
+  #
+  # [pt_BR]
+  # Valor padrão: green
+  # Opções disponíveis:
+  # all   = seleciona todos os heróis (independente da barra de stamina)
+  # green = seleciona os heróis com a barra de stamina verde (metade ou cheia)
+  # full  = seleciona somente os heróis com a barra de stamina cheia
+  mode: "green"
   list:
+    # [en_US]
+    # Number of scrolls that the bot will do in the list of heroes
+    # Default value: 3
+    #
+    # [pt_BR]
+    # Quantidade de scrolls que o bot vai fazer na lista de heróis
+    # Valor padrão: 3
     scroll_attempts: 3
 
+# [en_US] distance in pixels to click the work button
+#
+# [pt_BR] distancia em pixels para clickar no botão work
+#
 offsets:
   work_button_green: [120, 140] # [min value, max value]
   work_button_full: [90, 110] # [min value, max value]
 
+# [en_US] Metamask configs to automatically log in in case of system reboot
+#
+# [pt_BR] Configs da metamask para logar automaticamente em caso de reboot do sistema
+#
 metamask:
+  # Valor padrão : False
+  # Opções disponíveis: False ou True
   enable_login_metamask: false
-  password: 'METAMASK PASSWORD'
+  password: "METAMASK PASSWORD"
 
+# [en_US] Option to enable sending logs in telegram
+#
+# [pt_BR] Opção para habilitar envio dos logs no telegram
 services:
+  # Valor padrão : False
+  # Opções disponíveis: False ou True
   telegram: false
 
+# [en_US] Option for save logs to a file (logs.txt)
+#
+# [pt_BR] Opção para salvar os logs em arquivo (logs.txt)
 log:
+  # Valor padrão : False
+  # Opções disponíveis: False ou True
   save_to_file: false
+
+  # Valor padrão : False
+  # Opções disponíveis: False ou True
   debug: false
