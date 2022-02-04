@@ -30,7 +30,7 @@ multi_account = MultiAccount()
 telegram = Telegram()
 
 
-def main():
+def main():  
     application.start()
     telegram.start()
     multi_account.start()
@@ -44,6 +44,7 @@ def onlyMap():
 
 if __name__ == '__main__':
     try:
+        print("PLATAFORMAAA" + sys.platform)
         if 'only-map' in sys.argv:
             onlyMap()
         else:
